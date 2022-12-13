@@ -1,9 +1,8 @@
 import { NgModule } from '@angular/core';
 
 import { RouterModule, Routes } from '@angular/router';
-import { PagesRoutingModule } from './pages/pages-routing';
+import { PagesRoutingModule } from './pages/pages.routing';
 import { AuthRoutingModule } from './auth/auth.routing';
-
 import { PagenofoundComponent } from './pagenofound/pagenofound.component';
 
 const routes: Routes = [
