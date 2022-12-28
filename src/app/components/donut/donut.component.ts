@@ -16,7 +16,7 @@ export class DonutComponent {
   @Input('data') doughnutChartData: ChartData<'doughnut'> = {
     labels: this.doughnutChartLabels,
     datasets: [
-      { data: [ 350, 450, 100 ],
+      { data: [ 30, 50, 150 ],
         backgroundColor: ['#6857E6','#009FEE','#F02059']}
     ]
   };
